@@ -85,7 +85,7 @@ multiply(4, 3, function(answer){
 
   //Code Here for contains
 var contains = function(arr, name, cb) {
-  cb(Boolean(arr.indexOf[name] !== -1));
+  cb((arr.indexOf(name) !== -1));
 };
 
 var names = ['Tyler', 'Cahlan', 'Ryan', 'Colt', 'Tyler', 'Blaine', 'Cahlan'];
